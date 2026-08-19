@@ -51,3 +51,12 @@ contactForm.addEventListener("submit", function(event) {
 
     contactForm.reset();
 });
+const mainHeading = document.querySelector("h1");
+
+mainHeading.addEventListener("mouseover", () => {
+    mainHeading.style.transform = "scale(1.05)";
+});
+
+mainHeading.addEventListener("mouseout", () => {
+    mainHeading.style.transform = "scale(1)";
+});
